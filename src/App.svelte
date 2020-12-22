@@ -17,9 +17,10 @@
 </header>
 <Route path="/">
   <main>
-  <h1>Search Demo</h1>
-  <p>This is a simple demo of the hyper63 search module powered by mini-search</p>
-  <p>In this demo you can create a search index, create search documents, perform a search</p>
+    <h1>Search Demo</h1>
+    <p>This is a simple demo of the hyper63 search module powered by mini-search</p>
+    <p>In this demo you can create a search index, create search documents, perform a search</p>
+    <p>Source: <a href="https://github.com/hyper63/search-demo">Source Code</a></p>
   </main>
 </Route>
 <Route path="/index">
