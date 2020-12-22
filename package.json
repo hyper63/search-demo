@@ -1,0 +1,24 @@
+{
+  "name": "hyper63-search-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.1",
+    "rollup": "^2.35.1",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "svelte": "^3.31.0",
+    "tinro": "^0.4.6"
+  },
+  "dependencies": {
+    "crocks": "^0.12.4",
+    "ramda": "^0.27.1"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -cw",
+    "dev": "npx w3 public"
+  }
+}
